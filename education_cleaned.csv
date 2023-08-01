@@ -1,4 +1,4 @@
-ID,Name,State,Region,Applications,Admissions,Admission Rate,Enrollment,SAT Verbal Read 75,SAT Math 75,ACT English 75,ACT Math 75
+ID,Name,State,Region,Applications,Admissions,Admission_Rate,Enrollment,SAT_Verbal_75,SAT_Math_75,ACT_English_75,ACT_Math_75
 100654,Alabama A & M University,Alabama,Southeast,6560,4697,0.7160060975609757,1459,520,510,20,18
 100663,University of Alabama at Birmingham,Alabama,Southeast,11906,10541,0.8853519233999664,2361,680,708,33,28
 100706,University of Alabama in Huntsville,Alabama,Southeast,5781,4259,0.7367237502162256,1191,700,720,32,29
