@@ -3,11 +3,8 @@
 ## Obtaining the Data
 
 * We used the following dataset from Kaggle:
-
-    * US College & University Admissions 2020-2021:  Admission Rates, SAT and ACT scores <br><br>
-
+    * US College & University Admissions 2020-2021:  Admission Rates, SAT and ACT scores <br>
 * Source:  https://www.kaggle.com/datasets/jfschultz/us-college-admisions-2021-rates-and-test-scores?resource=download
-
 * We downloaded the data from Kaggle as a CSV file (Resources/df.csv).    
 
 __About the Dataset__
@@ -74,6 +71,7 @@ Dataset was limited to institutions reporting numbers for both number of applica
     * NOTE: Didn’t try other activation functions since we were going to design the automatic hyperparameter models in another notebook.
 * Compiled each model and trained the deep learning model on 100 epochs and validation_split at .15
 * Evaluated the performance of the models by calculating the loss and predictive accuracy of the models on the test dataset.
+   * NOTE:  Tried binning ‘Names’ but found that was too much and unnecessary. So dropped ‘Names’ among other columns. Binned ‘applications’ at several different sizes before coming to decision to drop column. Played with different ‘Region’ bin sizes as well.
 
 ## Creating Model Visualizations Using Seaborn Pairplot
 
