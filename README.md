@@ -12,13 +12,13 @@
 
 __About the Dataset__
 
-    The dataset is compiled from The Integrated Postsecondary Education Data System (IPEDS) https://nces.ed.gov/ipeds/use-the-data
+The dataset is compiled from The Integrated Postsecondary Education Data System (IPEDS) https://nces.ed.gov/ipeds/use-the-data
 
-    IPEDS (Integrated Postsecondary Education Data System) is an annual data collection distributed by the Postsecondary Branch of the National Center for Education Statistics (NCES), a non-partisan center of the Institute of Education Sciences under the U.S. Department of Education. NCES is the primary federal entity for collecting and analyzing data related to education in the U.S. and other nations.
+IPEDS (Integrated Postsecondary Education Data System) is an annual data collection distributed by the Postsecondary Branch of the National Center for Education Statistics (NCES), a non-partisan center of the Institute of Education Sciences under the U.S. Department of Education. NCES is the primary federal entity for collecting and analyzing data related to education in the U.S. and other nations.
 
-    Of the 6,289 institutions, listed with IPEDS, institutions which offer a four-year program conferring an undergraduate degree were included (n=2,556).
+Of the 6,289 institutions, listed with IPEDS, institutions which offer a four-year program conferring an undergraduate degree were included (n=2,556).
 
-    Dataset was limited to institutions reporting numbers for both number of applicants and admissions, and enrolment size greater than 100 (n=1,386)
+Dataset was limited to institutions reporting numbers for both number of applicants and admissions, and enrolment size greater than 100 (n=1,386)
 
 ## Cleaning the Data
 
