@@ -32,7 +32,7 @@ Dataset was limited to institutions reporting numbers for both number of applica
 * To double check that the import was successful, we printed the rows in the "schools" table.
 
 
-    **Note:**  The Keras Tuner and Autohyper models (**ACT_Colab_Autohyper.ipynb**, **SAT_Colab_Autohyper.ipynb**, **ACT_KT_Colab.ipynb**, and **SAT_KT_Colab.ipynb**) used the original schools_db SQL database and schools table. During the model development stage, it was determined that some models functioned better with nulls removed entirely, instead of converted to zero (0). This was accomplished by creating a second version of the jupyter notebook (education2.ipynb). The new SQL database was named "school_data_db" and the new table was named "school_data". We used the school_data_db SQL database and school_data table for the K-means model (**K_means_SAT_clustering.ipynb**).
+    **Note:**  The Keras Tuner and Autohyper models (**ACT_Colab_Autohyper.ipynb**, **SAT_Colab_Autohyper.ipynb**, **ACT_KT_Colab.ipynb**, and **SAT_KT_Colab.ipynb**) used the original schools_db SQL database and schools table. During the model development stage, it was determined that some models functioned better with nulls removed entirely, instead of converted to zero (0). This was accomplished by creating a second version of the jupyter notebook (education2.ipynb). The new SQL database was named "school_data_db" and the new table was named "school_data". We used the school_data_db SQL database and school_data table for the K-means model (**K_means_SAT_clustering.ipynb**) and Artificial Neural Network (**ANN_and_Seaborn.ipynb**).
 
 ## Clustering the Schools Using K-Means Model (K_means_SAT_clustering.ipynb)
 
@@ -73,13 +73,13 @@ Dataset was limited to institutions reporting numbers for both number of applica
 * Evaluated the performance of the models by calculating the loss and predictive accuracy of the models on the test dataset.
    * NOTE:  Tried binning ‘Names’ but found that was too much and unnecessary. So dropped ‘Names’ among other columns. Binned ‘applications’ at several different sizes before coming to decision to drop column. Played with different ‘Region’ bin sizes as well.
 
-## Creating Model Visualizations Using Seaborn Pairplot
+## Creating Model Visualizations Using Seaborn Pairplot (ANN_and_Seaborn.ipynb)
 
 * Use the seaborn library for plotting **pairplot** to take a look of the relationship between every single variable or feature in the dataframe
 * This gives a view of the relationship between dependent (y) and independent variables (X)
 * Created and plot the correlation heatmap / get the correlations of the data
 
-## Building the Dense Neural Network
+## Building the Dense Neural Network (ANN_and_Seaborn.ipynb)
 
 * Train linear regression models (the data the model has not seen before) and evaluate the model (getting the accuracy score)
 * Use Dense to build dense artificial neural network (ANN)
